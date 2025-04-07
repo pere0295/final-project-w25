@@ -91,9 +91,7 @@ h3 {
     border-radius: 4px;
     font-size: 0.8rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-self: flex-start;
+    display: inline-block;
 }
 
 #behind-the-dough {
