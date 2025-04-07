@@ -24,7 +24,7 @@ header .wrapper {
 }
 header .wrapper img {
     width: 200px;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 nav ul{
     display: flex;
@@ -45,7 +45,6 @@ header a {
     "div1 div1 div1"
     "div2 div3 div4";
     gap: 20px;
-    margin-left: 1em;
     margin-right: 1em;
 }
 .img-grid img:nth-child(1) {
@@ -72,6 +71,11 @@ h2 {
     font-size: 1.802rem;
 }
 h3 {
+    font-size: 1.266rem;
+}
+
+.limited {
+    font-weight: bold;
     font-size: 1.266rem;
 }
 
@@ -176,6 +180,12 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "div1 div2";
         gap: 20px;
+    }
+    #sweethearts-affair h1 {
+        margin: 0;
+    }
+    .limited {
+        margin-top: 1;
     }
     .behind-the-dough-grid {
         display: grid;
