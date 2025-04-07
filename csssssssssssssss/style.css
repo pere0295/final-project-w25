@@ -185,9 +185,6 @@ footer {
     #sweethearts-affair h1 {
         margin: 0;
     }
-    .limited {
-        margin-top: 1;
-    }
     .behind-the-dough-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
